@@ -16,6 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "files": ["dist/**/*"],
   "bugs": {
     "url": "https://github.com/scholtz-gnome/investec-api-v2/issues"
   },

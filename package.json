@@ -2,7 +2,8 @@
   "name": "investec-api-v2",
   "version": "1.0.0",
   "description": "Built in TypeScript.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -18,8 +19,11 @@
     "type": "git",
     "url": "git+https://github.com/scholtz-gnome/investec-api-v2.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Stephen Scholtz",
+  "keywords": [
+    "Investec",
+    "Programmable Banking"
+  ],
   "license": "ISC",
   "files": [
     "dist/**/*"
